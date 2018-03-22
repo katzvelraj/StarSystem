@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">StarSystemsSample</string>
+    <string name="errorData"> No Data Available</string>
+</resources>

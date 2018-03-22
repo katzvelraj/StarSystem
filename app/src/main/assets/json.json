@@ -1,0 +1,46 @@
+{
+  "formName": "New Certificate 1",
+  "pages": [
+    {
+      "pageName": "page 1",
+      "pageType": "standard",
+      "fields": [
+        {
+
+          "fieldLabel": "Enter a number",
+          "fieldAnswerType": "Number",
+          "fieldVariableName": "enterANumber"
+        }
+      ],
+      "sections": [
+        {
+          "sectionName": "New Section",
+          "fields": [
+            {
+
+              "fieldLabel": "Test Input",
+              "fieldAnswerType": "Input",
+              "fieldVariableName": "testInput"
+            },
+            {
+              "fieldLabel": "Test Number",
+              "fieldAnswerType": "Number",
+              "fieldRequired": true,
+              "fieldVariableName": "testNumber"
+            }
+          ]
+        },
+        {
+          "sectionName": "New Section",
+          "fields": [
+            {
+              "fieldLabel": "Test Text Area",
+              "fieldAnswerType": "TextArea",
+              "fieldVariableName": "testTextArea"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
